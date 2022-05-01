@@ -1,8 +1,8 @@
 <?php 
 
-class ModelMahasiswa extends CI_Model{
+class ModelBerita extends CI_Model{
     function tampil_data(){
-        return $this->db->get('Mahasiswa');
+        return $this->db->get('news');
     }
 
     function input_data($data,$table){
